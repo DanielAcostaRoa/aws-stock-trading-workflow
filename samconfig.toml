@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "step-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6hly3pllgi0x"
+s3_prefix = "step-sam"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
